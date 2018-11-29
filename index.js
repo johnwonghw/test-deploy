@@ -9,7 +9,7 @@ app.use(express.static(path.join(__dirname, 'client/build')));
 // Put all API endpoints under '/api'
 app.get('/api/match-list', (req, res) => {
 
-  res.send('yo')
+  res.send({ halo: 'hi' })
 });
 
 // The "catchall" handler: for any request that doesn't
